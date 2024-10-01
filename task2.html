@@ -8,16 +8,26 @@
 </head>
 <body>
   <section id="header">
-    <iframe src="header.html" frameborder="0" width="100%" height="100px"></iframe>
+    <object data="header.html" type="text/html" width="100%" height="100px"></object>
   </section>
 
   <section id="content">
-    <iframe src="menu.html" frameborder="0" width="40%" height="500px" style="float: left;"></iframe>
-    <iframe src="main-screen.html" frameborder="0" width="60%" height="500px" style="float: right;"></iframe>
+    <div class="row">
+      <div class="col-md-4">
+        <section id="menu">
+          <object data="menu.html" type="text/html" width="100%" height="500px"></object>
+        </section>
+      </div>
+      <div class="col-md-8">
+        <section id="main-screen">
+          <object data="main-screen.html" type="text/html" width="100%" height="500px"></object>
+        </section>
+      </div>
+    </div>
   </section>
 
   <section id="footer">
-    <iframe src="footer.html" frameborder="0" width="100%" height="100px"></iframe>
+    <object data="footer.html" type="text/html" width="100%" height="100px"></object>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
