@@ -1,6 +1,46 @@
-<div class="footer">
-    <p>&copy; 2023 Company Name</p>
-    <p>Address: 123 Main St, Anytown, USA</p>
-    <p>Blog: <a href="#">blog.com</a></p>
-    <p>Contact: <a href="#">contact@company.com</a></p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .footer {
+            background-color: #f8f9fa; 
+            color: #343a40; 
+            padding: 20px; 
+            text-align: center;
+            display: flex;
+            align-items: center; 
+            border-top: 1px solid #ddd; 
+            display: flex;
+            gap: 50px;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline; 
+        }
+
+
+        @media(max-width:619px){
+          .footer{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer" >
+        <p>&copy; 2023 Company Name</p>
+        <p>Address: 123 Main St, Anytown, USA</p>
+        <p>Blog: <a href="#">blog.com</a></p>
+        <p>Contact: <a href="#">contact@company.com</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
