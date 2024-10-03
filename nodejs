@@ -1,0 +1,40 @@
+
+
+C:\Users\lg\Desktop\node.js\my-mssql-project>node -v
+v20.17.0
+
+C:\Users\lg\Desktop\node.js\my-mssql-project>npm -v
+10.4.0
+
+C:\Users\lg\Desktop\node.js\my-mssql-project>npm init -y
+Wrote to C:\Users\lg\Desktop\node.js\my-mssql-project\package.json:
+
+{
+  "name": "my-mssql-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
+
+
+
+C:\Users\lg\Desktop\node.js\my-mssql-project>npm install mssql
+
+up to date, audited 73 packages in 1s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\lg\Desktop\node.js\my-mssql-project>
